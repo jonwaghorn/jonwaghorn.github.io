@@ -5,7 +5,6 @@ html {
 body {
   font-family: "Lexend Deca", sans-serif;
   font-size: 1.2rem;
-  margin: 0;
 }
 
 body.home {
@@ -16,6 +15,15 @@ body.home {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-position: center center;
+  margin: 0;
+}
+
+body.how {
+  margin: 2vw 2vw 200px 3vw;
+}
+
+body.who {
+  margin: 2vw 2vw 200px 3vw;
 }
 
 h1 {
@@ -44,12 +52,18 @@ h2 {
   margin-top: 0;
 }
 
+h2.register {
+  display: flex;
+  justify-content: space-between;
+}
+
 .what {
-  margin: 2vw;
-  padding: 2vw;
+  margin: 0 0 2vw 2vw;
+  padding: 1.4vw 2vw;
   width: 50vw;
-  background-color: #ededed;
+  background-color: #fffded;
   border: 2px solid;
+  border-radius: 0 2.5vw 0 2.5vw;
 }
 
 em {
@@ -57,14 +71,15 @@ em {
 }
 
 .links {
-  margin: 2vw;
-  padding: 2vw;
-  background-color: #ededed;
+  margin: 0 2vw 2vw 0;
+  padding: 1.2rem 2vw;
+  background-color: #fffded;
   border: 2px solid;
   position: fixed;
   bottom: 0;
   right: 0;
   font-size: 1.5rem;
+  border-radius: 0 2.5vw 0 2.5vw;
 }
 
 ul {
