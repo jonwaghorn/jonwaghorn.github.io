@@ -4,6 +4,7 @@ html {
 
 body {
   font-family: "Lexend Deca", sans-serif;
+  font-size: 1.2rem;
   margin: 0;
 }
 
@@ -11,6 +12,10 @@ body.home {
   background-image: url("../../assets/images/chalice_peak.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-position: center center;
 }
 
 h1 {
@@ -79,4 +84,8 @@ a:visited {
 a:hover {
   color: darkslateblue;
   text-decoration: underline;
+}
+
+p {
+  font-weight: 200;
 }
