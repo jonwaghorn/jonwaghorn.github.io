@@ -56,6 +56,7 @@ h2 {
 h2.register {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 em {
@@ -99,6 +100,14 @@ li.active {
   list-style-image: url("../../assets/images/bullet.png");
 }
 
+.nowrap {
+  white-space: nowrap;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
 .what {
   margin: 0 0 2vw 2vw;
   padding: 1.4vw 2vw;
@@ -122,14 +131,32 @@ li.active {
 
 /* for desktops */
 @media only screen and (min-width: 1367px) {
+  .hide-small {
+    display: initial;
+  }
+  .show-small {
+    display: none;
+  }
 }
 
 /* for laptops */
 @media only screen and (min-width: 991px) and (max-width: 1366px) {
+  .hide-small {
+    display: initial;
+  }
+  .show-small {
+    display: none;
+  }
 }
 
 /* for large tablets */
 @media only screen and (min-width: 769px) and (max-width: 990px) {
+  .hide-small {
+    display: initial;
+  }
+  .show-small {
+    display: none;
+  }
 }
 
 /* for smaller tablets */
@@ -137,13 +164,8 @@ li.active {
   .hide-small {
     display: none;
   }
-
-  .what {
-    font-size: larger;
-  }
-
-  .links li {
-    font-size: larger;
+  .show-small {
+    display: initial;
   }
 }
 
@@ -152,12 +174,7 @@ li.active {
   .hide-small {
     display: none;
   }
-
-  .what {
-    font-size: larger;
-  }
-
-  .links li {
-    font-size: larger;
+  .show-small {
+    display: initial;
   }
 }
