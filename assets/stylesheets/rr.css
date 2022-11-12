@@ -62,12 +62,6 @@ em {
   font-weight: 200;
 }
 
-@media (max-width: 768px) {
-  .hide-small {
-    display: none;
-  }
-}
-
 a {
   background-color: transparent;
 }
@@ -124,4 +118,46 @@ li.active {
   right: 0;
   font-size: 1.5rem;
   border-radius: 0 2.5vw 0 2.5vw;
+}
+
+/* for desktops */
+@media only screen and (min-width: 1367px) {
+}
+
+/* for laptops */
+@media only screen and (min-width: 991px) and (max-width: 1366px) {
+}
+
+/* for large tablets */
+@media only screen and (min-width: 769px) and (max-width: 990px) {
+}
+
+/* for smaller tablets */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .hide-small {
+    display: none;
+  }
+
+  .what {
+    font-size: larger;
+  }
+
+  .links li {
+    font-size: larger;
+  }
+}
+
+/* for cellphones */
+@media only screen and (max-width: 480px) {
+  .hide-small {
+    display: none;
+  }
+
+  .what {
+    font-size: larger;
+  }
+
+  .links li {
+    font-size: larger;
+  }
 }
