@@ -58,50 +58,14 @@ h2.register {
   justify-content: space-between;
 }
 
-.what {
-  margin: 0 0 2vw 2vw;
-  padding: 1.4vw 2vw;
-  width: 50vw;
-  background-color: #fffded;
-  border: 2px solid;
-  border-radius: 0 2.5vw 0 2.5vw;
-}
-
 em {
   font-weight: 200;
 }
 
-.links {
-  margin: 0 2vw 2vw 0;
-  padding: 1.2rem 2vw;
-  background-color: #fffded;
-  border: 2px solid;
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  font-size: 1.5rem;
-  border-radius: 0 2.5vw 0 2.5vw;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0 0 0 1rem;
-  padding: 0;
-}
-
-li.active {
-  list-style-image: url("../../assets/images/bullet.png");
-}
-
-ul.boring {
-  list-style-type: none;
-  margin: 0 0 1.2rem 0;
-  padding: 0;
-}
-
-ul.boring li {
-  font-weight: 200;
-  padding-bottom: 0.2rem;
+@media (max-width: 768px) {
+  .hide-small {
+    display: none;
+  }
 }
 
 a {
@@ -125,4 +89,39 @@ a:hover {
 
 p {
   font-weight: 200;
+}
+
+p.indent {
+  margin-left: 2vw;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0 0 0 1rem;
+  padding: 0;
+}
+
+li.active {
+  list-style-image: url("../../assets/images/bullet.png");
+}
+
+.what {
+  margin: 0 0 2vw 2vw;
+  padding: 1.4vw 2vw;
+  width: 50vw;
+  background-color: #fffded;
+  border: 2px solid;
+  border-radius: 0 2.5vw 0 2.5vw;
+}
+
+.links {
+  margin: 0 2vw 2vw 2vw;
+  padding: 1.2rem 2vw;
+  background-color: #fffded;
+  border: 2px solid;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  font-size: 1.5rem;
+  border-radius: 0 2.5vw 0 2.5vw;
 }
