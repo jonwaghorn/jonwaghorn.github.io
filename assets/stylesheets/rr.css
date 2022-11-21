@@ -186,6 +186,18 @@ img.logo {
   }
 }
 
+.hero {
+  width: 100%;
+}
+
+.hero img {
+  width: 100%;
+}
+
 .words {
-  margin-top: 1rem;
+  margin: 1rem 0;
+}
+
+.quote {
+  font-style: italic;
 }
