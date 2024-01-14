@@ -8,7 +8,7 @@ body {
 }
 
 body.home {
-  background-image: url("../../assets/images/chalice_peak.jpg");
+  background-image: url("../../assets/images/mid_goulter.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
@@ -28,10 +28,10 @@ body.who {
 }
 
 h1 {
-  text-align: right;
+  text-align: left;
   font-weight: 900;
-  font-size: 12vw;
-  margin: 2vw 2vw 0 0;
+  font-size: 13vw;
+  margin: 2vw 0 0 2vw;
   line-height: 95%;
   color: rgb(255, 255, 255);
   mix-blend-mode: difference;
@@ -109,10 +109,10 @@ li.active {
 }
 
 img.logo {
-  float: left;
-  width: 6vw;
+  float: right;
+  width: 7vw;
   opacity: 0.2;
-  margin: 0 0 0 2vw;
+  margin: 0 2vw 0 0;
 }
 
 .what {
